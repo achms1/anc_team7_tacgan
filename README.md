@@ -8,6 +8,8 @@ Training:
 2.	Download the captions from here. Extract the downloaded file, copy the text_c10 folder and paste it in Data/datasets/flowers in the working directory.
 3.	To extract skip-thought features: python dataprep.py --data_dir=Data --dataset=flowers
 4.	To train the GAN and generate model: python train.py --dataset="flowers" --model_name=TAC-GAN
+
+
 Testing:
 1.	Write text descriptions in a file each per line and save at Data/text.txt 
 2.	To extract skip-thoughts for the given captions: python encode_text.py--caption_file=Data/text.txt --data_dir=Data
