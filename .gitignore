@@ -21,5 +21,10 @@ gen_backup.py
 data_loader_test.py
 downloadModels.sh
 *.npy
-Data
+*.h5
+*.t7
+Data\datasets\flowers\jpg
+Data\datasets\flowers\text_c10
+*.txt
+
 
